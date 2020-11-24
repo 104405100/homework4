@@ -1,1 +1,525 @@
 # homework4
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>homework5</title>
+    <style>
+        html {
+
+        }
+        body {
+            width: 375px;
+            height: auto;
+            background: #f1f1f1;
+
+        }
+     
+
+        .logo {
+            position: absolute;
+            width: 219px;
+            height: 40px;
+            left: 20px;
+            top: 22px;
+        }
+        hamburger {
+            position: absolute;
+            left: 327px;
+            height: 0px;
+            width: 28px;
+            border: 3px solid #C71B0A;
+            border-radius: 3px
+        }
+        .sub-title {
+            position:absolute;
+            top:90px;
+            left:32px;
+            font-family: Noto Sans;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 50px;
+            color: #000000;
+        }
+        .title {
+            width: 326px;
+            position: absolute;
+            top: 135px;
+            left: 25px;
+            font-family: Noto Sans TC;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 34px;
+            line-height: 50px;
+            color: #404040;
+        }
+        .hero-img {
+            position:absolute;
+            top:320px;
+            width:375px;
+            left:0px;
+        }
+        .figcaption {
+            width:360px;
+            position:absolute;
+            top:593px;
+            left:8px;
+            font-family: Noto Sans;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 20px;
+            color: #808080;
+        }
+        vector-x {
+            position: absolute;
+            height: 0px;
+            width: 300px;
+            left: 40px;
+            top: 745px;
+            border-radius: 0px;
+            border: 1px solid #D0D0D0;
+        }
+
+        vector-y {
+            position: absolute;
+            height: 15px;
+            width: 0px;
+            left: 340px;
+            top: 745px;
+            border-radius: 0px;
+            border: 1px solid #D0D0D0;
+        }
+
+        ctg {
+            position: absolute;
+            height: 22px;
+            width: 80px;
+            left: 49px;
+            top: 755px;
+            font-family: Noto Sans;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 22px;
+            color: #A67A44;
+        }
+
+        date {
+            position: absolute;
+            height: 20px;
+            width: 56px;
+            left: 40px;
+            top: 804px;
+            font-family: Noto Sans;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 20px;
+            color: #808080;
+        }
+
+        vector-tag {
+            position: absolute;
+            height: 33px;
+            width: 62px;
+            left: 41px;
+            top: 869px;
+            border-radius: 30px;
+            border: 1px solid #808080;
+            border-radius: 30px;
+        }
+
+        tag {
+            position: absolute;
+            height: 33px;
+            left: 13px;
+            top: 6.5px;
+            font-family: Noto Sans;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 20px;
+            color: #808080;
+        }
+
+        /* tool icon */
+        .bookmark {
+            position :absolute;
+            height: 36px;
+            width: 36px;
+            left: 45px;
+            top: 940px;
+            border-radius: 0px;
+        }
+
+        .tool-text {
+            position: absolute;
+            height: 36px;
+            width: 36px;
+            left: 99px;
+            top: 940px;
+            border-radius: 0px;
+        }
+
+        .print {
+            position: absolute;
+            height: 36px;
+            width: 36px;
+            left: 154px;
+            top: 940px;
+            border-radius: 0px;
+        }
+        .line {
+            position: absolute;
+            height: 36px;
+            width: 36px;
+            left: 207px;
+            top: 940px;
+            border-radius: 0px;
+        }
+        .facebook {
+            position: absolute;
+            height: 36px;
+            width: 36px;
+            left: 254px;
+            top: 940px;
+            border-radius: 0px;
+        }
+        .twitter {
+            position: absolute;
+            height: 36px;
+            width: 36px;
+            left: 301px;
+            top: 940px;
+            border-radius: 0px;
+        }
+
+        p1 {
+            text-align:justify;
+            position: absolute;
+            width: 300px;
+            left: 38px;
+            font-family: Noto Sans;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 40px;
+            color: #404040;
+        }
+        p2 {
+            text-align: justify;
+            position: absolute;
+            width: 300px;
+            left: 38px;
+            font-family: Noto Sans;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 38px;
+            color: #404040;
+        }
+
+        .img2 {
+            position: absolute;
+            top: 2746px;
+            width:375px;
+            height:218px;
+            left:0px;
+
+        }
+        .figcaption-img2 {
+            position:absolute;
+            width: 235px;
+            top: 2979px;
+            left: 125px;
+            font-size: 14px;
+            line-height: 19px;
+            letter-spacing: 0.4px;
+            color: #999999;
+        }
+
+
+
+        .holder {
+            overflow: hidden;
+            position: relative;
+            width: 200px;
+            height: 50px;
+        }
+
+        .ellipse {
+            position: absolute;
+            background: radial-gradient(ellipse, transparent, transparent 10px, black 10px, black 10px, transparent 11px);
+            background-size: 36px 40px;
+            width: 200px;
+            height: 20px;
+        }
+
+        .ellipse2 {
+            top: 19px;
+            left: 18px;
+            background-position: 0px -21px;
+        }
+
+        .related {
+            position: absolute;
+            top:4990px;
+            width: 86px;
+            left: 38px;
+            font-family: Noto Sans;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 28px;
+            color: #808080;
+        }
+
+        .related-items {position:absolute;
+                        top:5046px;
+            display: flex;
+            width: 105px;
+            flex-wrap: wrap;
+            left:38px
+        }
+
+
+
+        .related-item>img{
+            width:105px; height:81px;
+        }
+
+        .related-item > em {
+            font-family: Noto Sans;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 20px;
+            color: #A67A44;
+        }
+
+        .related-item > em2 {
+            color: #262626;
+            font-family: Noto Sans;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 28px;
+        }
+
+
+        .bottom {
+            font-family: Noto Sans;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 18px;
+
+            color: #808080;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- logo & hamburger -->
+
+    <img class="logo" src="icon/twreporter-logo.svg" />
+    <hamburger style="top:30px"></hamburger>
+    <hamburger style="top:42px"></hamburger>
+    <hamburger style="top:53px"></hamburger>
+
+    <!-- title -->
+
+    <div class="sub-title">Reporter Saturday Features</div>
+    <div class="title">【山思而行】登山中的死亡，對生命的凝視</div>
+    <img class="hero-img" src="pic/hero.jpg" />
+    <div class="figcaption">登上山峰之途，就是在死亡的陰影之下，動用自身全部的感官與技藝，設法避開那些遭致危機的陷阱。圖為2016年2月，一支國際登山隊正跨越珠穆朗瑪峰基地營附近的冰川。（攝影／AP／Tashi Sherpa／達志影像）</div>
+
+    <!-- metadata section -->
+
+    <vector-x></vector-x>
+    <vector-y></vector-y>
+    <vector-x style="top: 794px;"></vector-x>
+    <vector-y style="top: 794px;"></vector-y>
+
+    <!-- metadata category -->
+
+    <ctg>環境・教育</ctg>
+    <date>刊出日期</date><date style="width: 67px; left: 103px;">2020/2/28</date>
+    <vector-tag><tag>#體育</tag></vector-tag>
+    <vector-tag style="width: 104px; left: 108px;"><tag style="left: 19px;">#山思而行</tag></vector-tag>
+    <vector-x style="position:absolute; top: 917px;"></vector-x>
+    <vector-y style="top:902px;"></vector-y>
+
+    <!-- tool box -->
+
+    <img class="bookmark" src="icon/add-bookmark.svg">
+    <img class="tool-text" src="icon/tool-text.svg">
+    <img class="print" src="icon/tool-print.svg">
+    <img class="line" src="icon/share-line.svg">
+    <img class="facebook" src="icon/share-fb.svg">
+    <img class="twitter" src="icon/share-twitter.svg">
+
+    <!-- paragraphs 1 -->
+
+    <p1 style="top:1057px">講到登山，普遍的印象可能是壯闊的山景，雲海朝霞萬丈金芒；也可能是山上人與人之間的情誼，過地形時伸手扶一把，或濕冷雨天一碗熱呼呼的泡麵。我們在山中感受生命各種美好，汲取養分。就算是逆境，痛苦會過去，美會留下，回到人間後依舊能量滿滿再度出發。</p1>
+    <p1 style="top:1472px">做為人，不知為何，我們傾向記憶美好，卻遺忘過程的苦痛。但我卻想，這是否讓我們理解、記憶一件事情性質的方式，也隨之產生偏誤？</p1>
+    <p1 style="top:1710px">我想說的是，登山是件會死人的運動。<svg style="top:50px; position:absolute; border-left:57px;" width="20px" height="20px"><circle fill="white" cx="10" cy="10" r="10"></circle> </svg></p1>
+    <p1 style="top:1819px">那是個風和日麗的早晨，我跟阿果從標高5,600公尺的馬卡魯峰前進基地營帳篷中醒來。我倆前一天剛攀升至7,150公尺處進行適應攀登並下山，往後一週將是一系列壞天氣週期的到來，所以我們正準備迎接休息日的放鬆作息。</p1>
+    <p2 style="top:2142px">慢慢踱進餐廳帳，吃完千篇一律的鬆餅加煎蛋，正想放個音樂泡杯咖啡，這時外面有人叫我。是Lakpa。</p2>
+    <p2 style="top:2298px">
+        Lakpa是隔壁營區的商業團"Pioneer Adventure"的老闆，今年除了我跟阿果，馬卡魯峰這裡還有同樣來自台灣的登山者
+        <a href="https://zh.wikipedia.org/wiki/%E8%A9%B9%E5%96%AC%E6%84%89" target="_blank" style="color:#A67A44">三條魚</a>，她就在這個隊伍中。
+    </p2>
+    <p2 style="top:2533px">原本以為Lakpa是來約我們晚上去他們隊上吃個飯之類的，興高采烈的走出去跟他打招呼，沒想到他表情挺嚴肅：</p2>
+
+    <!-- img 2 -->
+
+    <img class="img2" src="pic/img2.jpg" />
+    <div class="figcaption-img2">
+        2017年3月，一隊登山者朝向尼泊爾羅布崎的登山營地前進。（攝影／AP／Tashi Sherpa／達志影像）
+    </div>
+    <vector-x style="
+                     width: 235px;
+                     left: 125px;
+                     top: 3053px;
+                     border: 1px solid #D0A67D;"></vector-x>
+
+    <!-- paragraph 2 -->
+
+    <p1 style="top:3105px">其實我們也常忽略，就算我們將自己關在由水泥與文明構成的防護罩中，離野性的大自然遠遠的，各種意外還是可能在不經意間降臨。但我們卻很容易欺騙自己，在日常文明生活中，死亡離我們很遠。加上華人文化將生死視作忌諱而不與談論，所以大多數人其實並不真正意識到，死亡其實比我們想像中靠近。</p1>
+    <p1 style="top:3550px">我真正意識到這件事情是2013年，那年我在當兵，因為身體背面一個莫名的黑色凸起去看醫生。原本以為是痣，切掉就好了。結果醫生一看面色凝重：「你這個可能是黑色素瘤，得趕快預約開刀之後做切片檢查。」我一開始還想說那啥，不就是個小肉瘤嗎？結果一google之下，發現如果真的是黑色素瘤，我活超過3年的機率不到10%。</p1>
+    <p1 style="top:4072px">當然後來切片檢查是良性，切掉就沒事了。但這件事情某程度上改變了我的世界觀。在熱愛的事情上投注生命與熱情，就算有其風險，依舊要直面死亡。如此，也才是真正認真的直面生命。</p1>
+    <p2 style="top:4354px">生命有各種路徑與選擇，60億人也許有60億種人生樣態。重要的，是釐清並接受，自己走在怎樣的生命之道上。若能無悔，就是一種幸運。這篇文章，與其說是寫給不特定受眾，不如說是寫給自己。</p2>
+    <p2 style="top:4624px;">自開始登山並投入海外攀登以來，隨著逐漸深入，難免就有愈多認識的人永遠留在了山上。問我怎麼去看待這些逝去？也許有些沉重，但更多的是祝福。</p2>
+
+
+    <div style="position:absolute; top:4899px;  margin-left :72px">
+        <div class="holder">
+            <div class="ellipse"></div>
+            <div class="ellipse ellipse2"></div>
+        </div>
+    </div>
+
+
+    <!-- related -->
+
+    <div class="related">相關文章</div>
+
+
+    <div style="width:350px;height:185px">
+        <div class="related-items">
+            <div class="related-item">
+                <em style="display:block">環境・教育</em>
+                <em2 style="display:block; width :191px">
+                    探險一步、前進一步──
+                    呂忠翰、張元植挑戰台灣人首登「野蠻巨峰」K2
+                </em2>
+                <img style="margin-left:224px" src="pic/1.jpg" />
+            </div>
+
+            <vector-x style="
+                        position: absolute;
+                        width: 340px;
+                        height: 0px;
+                        left: 5px;
+                        top: 184px;
+                        border: 1px solid #D0D0D0"></vector-x>
+
+            <div class="related-item">
+                <em style="display:block">環境・教育</em>
+                <em2 style="display:block; width:191px">守在半山腰的指揮靈魂  「8千公尺英雄」推手連志展</em2>
+                <img style="margin-left:224px" src="pic/2.jpg" />
+            </div>
+
+            <vector-x style="
+                        position: absolute;
+                        width: 340px;
+                        height: 0px;
+                        left: 5px;
+                        top: 369px;
+                        border: 1px solid #D0D0D0"></vector-x>
+
+
+            <div class="related-item">
+                <em style="display:block">環境・教育</em>
+                <em2 style="display:block; width :191px">山，在這裡──紙上攻頂14座8千公尺高山</em2>
+                <img style="margin-left:224px" src="pic/3.jpg" />
+            </div>
+
+            <vector-x style="
+                        position: absolute;
+                        width: 340px;
+                        height: 0px;
+                        left: 5px;
+                        top: 554px;
+                        border: 1px solid #D0D0D0"></vector-x>
+
+
+
+            <div class="related-item">
+                <em style="display:block">環境・教育</em>
+                <em2 style="display:block; width :191px">【山思而行】高海拔的氧氣，就像自由</em2>
+                <img style="margin-left:224px" src="pic/4.jpg" />
+
+                <vector-x style="
+                        position: absolute;
+                        width: 340px;
+                        height: 0px;
+                        left: 5px;
+                        top: 739px;
+                        border: 1px solid #D0D0D0"></vector-x>
+
+            </div>
+        </div>
+    </div>
+
+    <div style="        position: absolute;
+        width: 375px;
+        height: 666px;
+        left: 0px;
+        top: 5866px;
+        background: #FFFFFF;">
+        <em class="bottom" style="position: absolute; width: 300px; height: 110px; left: 37px; top: 60px; font-family: Noto Sans; font-style: normal; font-weight: normal; font-size: 16px; line-height: 26px; /* or 162% */ /* colors/grey-500 */ color: #808080;">
+            2015年12月《報導者》正式上線，稟持深度、開放、非營利的精神，致力於公共領域調查報導，為讀者持續追蹤各項重要議題，共同打造多元的社會與媒體環境。
+
+        </em>
+
+        <div class="bottom" style="position: absolute; width: 300px; height: 188px; left: 37px; top: 230px;">
+            <div style="display: flex; flex-direction: column; align-items: flex-start; padding: 0px; position: absolute; width: 102px; height: 141px; left: 37px; top: 24px;">
+                <em>關於我們</em><em style="margin-top:15px;">聯絡我們</em><em style="margin-top:15px;">作者群</em><em style="margin-top:15px;">影響力報告</em>
+            </div>
+
+        </div>
+
+
+        <div style="        background-color: red;
+        position: absolute;
+        width: 40px;
+        height: 21px;
+        left: 28px;
+        top: 353px;
+        background: #DA1F0D;"><em style="color:white; position:absolute; right:5px;">New</em></div>
+
+
+        <div class="bottom" style="position: absolute; width: 300px; height: 188px; left: 174px; top: 230px;">
+            <div style="display: flex; flex-direction: column; align-items: flex-start; padding: 0px; position: absolute; width: 102px; height: 141px; left: 37px; top: 24px;">
+                <em>隱私政策</em><em style="margin-top:15px;">許可協議</em><em style="margin-top:15px;">捐款徵信</em><em style="margin-top:15px;">常見問題</em>
+            </div>
+        </div>
+
+        <div class="bottom" style="display: flex; flex-direction: column; align-items: flex-start; padding: 0px; position: absolute; width: 187px; height: 102px; left: 73px; top: 448px;">
+            <em>加入我們</em><em style="margin-top:15px">訂閱電子報</em><em style="margin-top:15px">報導者基金會新聞專區</em>
+        </div>
+
+
+        <img style="position: absolute; width: 277px; height: 30px; left: 49px; top: 607px;" src="icon/icons.jpg" />
+
+
+
+
+    </div>
+
+</body>
+</html>
