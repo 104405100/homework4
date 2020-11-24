@@ -1,0 +1,320 @@
+﻿body {
+    width: 375px;
+    height: auto;
+    background: #f1f1f1;
+}
+
+
+.logo {
+    position: absolute;
+    width: 219px;
+    height: 40px;
+    left: 20px;
+    top: 22px;
+}
+
+hamburger {
+    position: absolute;
+    left: 327px;
+    height: 0px;
+    width: 28px;
+    border: 3px solid #C71B0A;
+    border-radius: 3px
+}
+
+.sub-title {
+    position: absolute;
+    top: 90px;
+    left: 32px;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 50px;
+    color: #000000;
+}
+
+.title {
+    width: 326px;
+    position: absolute;
+    top: 135px;
+    left: 25px;
+    font-family: Noto Sans TC;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 50px;
+    color: #404040;
+}
+
+.hero-img {
+    position: absolute;
+    top: 320px;
+    width: 375px;
+    left: 0px;
+}
+
+.figcaption {
+    width: 360px;
+    position: absolute;
+    top: 593px;
+    left: 8px;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #808080;
+}
+
+vector-x {
+    position: absolute;
+    height: 0px;
+    width: 300px;
+    left: 40px;
+    top: 745px;
+    border-radius: 0px;
+    border: 1px solid #D0D0D0;
+}
+
+vector-y {
+    position: absolute;
+    height: 15px;
+    width: 0px;
+    left: 340px;
+    top: 745px;
+    border-radius: 0px;
+    border: 1px solid #D0D0D0;
+}
+
+ctg {
+    position: absolute;
+    height: 22px;
+    width: 80px;
+    left: 49px;
+    top: 755px;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    color: #A67A44;
+}
+
+date {
+    position: absolute;
+    height: 20px;
+    width: 56px;
+    left: 40px;
+    top: 804px;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #808080;
+}
+
+vector-tag {
+    position: absolute;
+    height: 33px;
+    width: 62px;
+    left: 41px;
+    top: 869px;
+    border-radius: 30px;
+    border: 1px solid #808080;
+    border-radius: 30px;
+}
+
+tag {
+    position: absolute;
+    height: 33px;
+    left: 13px;
+    top: 6.5px;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #808080;
+}
+
+/* tool icon */
+.bookmark {
+    position: absolute;
+    height: 36px;
+    width: 36px;
+    left: 45px;
+    top: 940px;
+    border-radius: 0px;
+}
+
+.tool-text {
+    position: absolute;
+    height: 36px;
+    width: 36px;
+    left: 99px;
+    top: 940px;
+    border-radius: 0px;
+}
+
+.print {
+    position: absolute;
+    height: 36px;
+    width: 36px;
+    left: 154px;
+    top: 940px;
+    border-radius: 0px;
+}
+
+.line {
+    position: absolute;
+    height: 36px;
+    width: 36px;
+    left: 207px;
+    top: 940px;
+    border-radius: 0px;
+}
+
+.facebook {
+    position: absolute;
+    height: 36px;
+    width: 36px;
+    left: 254px;
+    top: 940px;
+    border-radius: 0px;
+}
+
+.twitter {
+    position: absolute;
+    height: 36px;
+    width: 36px;
+    left: 301px;
+    top: 940px;
+    border-radius: 0px;
+}
+
+p1 {
+    text-align: justify;
+    position: absolute;
+    width: 300px;
+    left: 38px;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 40px;
+    color: #404040;
+}
+
+p2 {
+    text-align: justify;
+    position: absolute;
+    width: 300px;
+    left: 38px;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 38px;
+    color: #404040;
+}
+
+.img2 {
+    position: absolute;
+    top: 2746px;
+    width: 375px;
+    height: 218px;
+    left: 0px;
+}
+
+.figcaption-img2 {
+    position: absolute;
+    width: 235px;
+    top: 2979px;
+    left: 125px;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.4px;
+    color: #999999;
+}
+
+
+
+.holder {
+    overflow: hidden;
+    position: relative;
+    width: 200px;
+    height: 50px;
+}
+
+.ellipse {
+    position: absolute;
+    background: radial-gradient(ellipse, transparent, transparent 10px, black 10px, black 10px, transparent 11px);
+    background-size: 36px 40px;
+    width: 200px;
+    height: 20px;
+}
+
+.ellipse2 {
+    top: 19px;
+    left: 18px;
+    background-position: 0px -21px;
+}
+
+.related {
+    position: absolute;
+    top: 4990px;
+    width: 86px;
+    left: 38px;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    color: #808080;
+}
+
+.related-items {
+    position: absolute;
+    top: 5046px;
+    display: flex;
+    width: 105px;
+    flex-wrap: wrap;
+    left: 38px
+}
+
+
+
+.related-item > img {
+    width: 105px;
+    height: 81px;
+}
+
+.related-item > em {
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    color: #A67A44;
+}
+
+.related-item > em2 {
+    color: #262626;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+
+.bottom {
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+    color: #808080;
+}
